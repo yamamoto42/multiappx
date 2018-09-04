@@ -13,10 +13,12 @@ It use DevOps on Azure and VSTS.
 
 Download and push to Azure WebApp or Predix staticbuildpack
 
-'git clone https://github.com/yamamoto42/bootstrap.git'
-'cd bootstrap'
-'cf login'
-'cf push <APP_NAME> -b staticfile_buildpack -m 64mb'
+<cmd
+git clone https://github.com/yamamoto42/bootstrap.git
+cd bootstrap
+cf login
+cf push *<APP_NAME>* -b staticfile_buildpack -m 64mb
+>
 
 ## License
 
