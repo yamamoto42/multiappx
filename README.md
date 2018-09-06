@@ -9,6 +9,8 @@ It use DevOps on Azure and VSTS.
 
 - Predix <https://hy01app.run.aws-usw02-pr.ice.predix.io>
 
+- IBM Cloud <https://hy01app.mybluemix.net/>
+
 ## Getting Started
 
 Download and push to Azure WebApp or Predix staticbuildpack
