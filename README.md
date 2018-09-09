@@ -1,7 +1,7 @@
-# Bootstrap
+# Bootstrap App
 
 This is bootstrap sample application.
-It use DevOps on Azure and VSTS.
+It use DevOps on Azure.
 
 ## Examples
 
@@ -11,6 +11,8 @@ It use DevOps on Azure and VSTS.
 
 - IBM Cloud <https://hy01app.mybluemix.net/>
 
+- IBM Cloud Docker Container type <http://y01apc.mybluemix.net/>
+
 ## Getting Started
 
 Download and push to Azure WebApp or Predix staticbuildpack
@@ -19,7 +21,11 @@ Download and push to Azure WebApp or Predix staticbuildpack
 git clone https://github.com/yamamoto42/bootstrap.git
 cd bootstrap
 cf login
-cf push *<APP_NAME>* -b staticfile_buildpack -m 64mb
+cf push <APP_NAME> -b staticfile_buildpack -m 64mb
+```
+
+```
+cf push <APP_NAME> -m 64m --docker-image yamamoto42/bootstrap
 ```
 
 ## License
