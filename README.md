@@ -11,7 +11,7 @@ It use DevOps on Azure.
 
 - IBM Cloud <https://hy01app.mybluemix.net/>
 
-- IBM Cloud Docker Container type <http://y01apc.mybluemix.net/>
+- IBM Cloud Docker Container type <http://hy01apc.mybluemix.net/>
 
 ## Getting Started
 
@@ -31,3 +31,4 @@ cf push <APP_NAME> -m 64m --docker-image yamamoto42/bootstrap
 ## License
 
 MIT
+
