@@ -7,6 +7,8 @@ It use DevOps on Azure.
 
 - Azure <http://hy01app.azurewebsites.net/>
 
+- AWS <http://hy01env.3rwrm5immp.us-west-2.elasticbeanstalk.com/>
+
 - Predix <https://hy01app.run.aws-usw02-pr.ice.predix.io>
 
 - IBM Cloud <https://hy01app.mybluemix.net/>
