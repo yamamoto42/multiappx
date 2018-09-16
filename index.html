@@ -279,6 +279,10 @@
               </tbody>
             </table>
           </div>
+
+          <h2>Production</h2>
+          <canvas class="my-4 w-100" id="myChart2" width="900" height="300"></canvas>
+
         </main>
       </div>
     </div>
@@ -329,6 +333,32 @@
           }
         }
       });
+
+      var ctx = document.getElementById("myChart2");
+      var myChart2 = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          datasets: [{
+            data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+            backgroundColor: '#45b39d',
+            borderWidth: 1,
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+
     </script>
   </body>
 </html>
