@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap",
+  "version": "0.0.1",
+  "description": "This is bootstrap sample application.\r It use DevOps on Azure.",
+  "main": "index.html",
+  "scripts": {
+    "build": "GIT_COMMIT_HASH=$(git rev-parse HEAD) gulp hoge",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamamoto42/bootstrap.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamamoto42/bootstrap/issues"
+  },
+  "homepage": "https://github.com/yamamoto42/bootstrap#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-replace": "^1.0.0"
+  }
+}
