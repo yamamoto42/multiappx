@@ -3,7 +3,10 @@ var http = require("http"),
     path = require("path"),
     fs = require("fs"),
     port = process.argv[2] || 8080;
-
+var mime = {
+  ".html": "text/html",
+  ".css":  "text/css"
+};
 
 http.createServer(function(request, response) {
 
