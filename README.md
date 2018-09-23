@@ -1,5 +1,12 @@
 # Bootstrap App
 
+
+
+[![GitHub issues](https://img.shields.io/github/issues/yamamoto42/bootstrap.svg)](https://github.com/yamamoto42/bootstrap)
+[![Docker Automated build](https://img.shields.io/docker/automated/yamamoto42/bootstrap.svg)](https://hub.docker.com/r/yamamoto42/bootstrap/)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yamamoto42/bootstrap.svg)](https://github.com/yamamoto42/bootstrap)
+[![Discord](https://img.shields.io/discord/492866063051128852.svg)](https://discordapp.com/channels/492866063051128852)
+
 This is Multi Cloud Sample application by Bootstrap.
 These build and deploy are using Azure DevOps.
 
