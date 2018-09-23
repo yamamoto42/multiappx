@@ -1,9 +1,10 @@
 {
   "name": "bootstrap",
   "version": "0.0.2",
-  "description": "This is bootstrap sample application.\r It use DevOps on Azure.",
+  "description": "This is Multi Cloud Sample application by Bootstrap.\r These build and deploy are using Azure DevOps.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "build": "GIT_COMMIT_HASH=$(git rev-parse HEAD) gulp hoge",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,9 @@
     "url": "https://github.com/yamamoto42/bootstrap/issues"
   },
   "homepage": "https://github.com/yamamoto42/bootstrap#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.3"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-replace": "^1.0.0"
