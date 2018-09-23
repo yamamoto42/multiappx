@@ -1,8 +1,8 @@
 {
   "name": "bootstrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is bootstrap sample application.\r It use DevOps on Azure.",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "build": "GIT_COMMIT_HASH=$(git rev-parse HEAD) gulp hoge",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/yamamoto42/bootstrap.git"
   },
-  "author": "",
+  "author": "Hiro Yamamoto",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yamamoto42/bootstrap/issues"
