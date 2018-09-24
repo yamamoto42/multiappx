@@ -5,10 +5,10 @@
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yamamoto42/multiappx.svg)](https://github.com/yamamoto42/multiappx)
 [![Discord](https://img.shields.io/discord/492866063051128852.svg)](https://discordapp.com/channels/492866063051128852)
 
-This is Multi Cloud Sample application by Bootstrap.
-These build and deploy are using Azure DevOps.
+This is [Multicloud](https://en.wikipedia.org/wiki/Multicloud) Sample application by [Bootstrap](http://getbootstrap.com/).
+These build and deploy are using [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/).
 
-![multicloud](./images/multicloud.png)
+![multicloudflow](./images/multicloud.png)
 
 ## Examples
 |  cloud  |  service  |   type  |
