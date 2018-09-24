@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yamamoto42/bootstrap.git"
+    "url": "git+https://github.com/yamamoto42/multiappx.git"
   },
   "author": "Hiro Yamamoto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yamamoto42/bootstrap/issues"
+    "url": "https://github.com/yamamoto42/multiappx/issues"
   },
-  "homepage": "https://github.com/yamamoto42/bootstrap#readme",
+  "homepage": "https://github.com/yamamoto42/multiappx#readme",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "express": "^4.16.3",
