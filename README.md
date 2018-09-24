@@ -10,6 +10,8 @@
 This is Multi Cloud Sample application by Bootstrap.
 These build and deploy are using Azure DevOps.
 
+![multicloud](./multicloud.png)
+
 ## Examples
 
 - AWS <http://hy01env.3rwrm5immp.us-west-2.elasticbeanstalk.com/>
