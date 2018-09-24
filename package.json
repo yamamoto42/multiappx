@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "multiappx",
   "version": "0.0.2",
   "description": "This is Multi Cloud Sample application by Bootstrap.\r These build and deploy are using Azure DevOps.",
   "keywords": [

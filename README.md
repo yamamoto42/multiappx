@@ -1,4 +1,4 @@
-# Bootstrap App
+# MultiAppX
 
 [![GitHub issues](https://img.shields.io/github/issues/yamamoto42/bootstrap.svg)](https://github.com/yamamoto42/bootstrap)
 [![Docker Automated build](https://img.shields.io/docker/automated/yamamoto42/bootstrap.svg)](https://hub.docker.com/r/yamamoto42/bootstrap/)
@@ -28,8 +28,8 @@ These build and deploy are using Azure DevOps.
 
 Download and push each cloud.
 ```
-git clone https://github.com/yamamoto42/bootstrap.git
-cd bootstrap
+git clone https://github.com/yamamoto42/multiappx.git
+cd multiappx
 ```
 
 - Google Cloud Platform (Node.js)
@@ -45,7 +45,7 @@ cf push <APP_NAME> -b staticfile_buildpack -m 64mb
 
 - IBM Cloud (Docker Container)
 ```
-cf push <APP_NAME> -m 64mb --docker-image yamamoto42/bootstrap
+cf push <APP_NAME> -m 64mb --docker-image yamamoto42/multiappx
 ```
 
 ## License
