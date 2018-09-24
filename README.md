@@ -11,18 +11,14 @@ These build and deploy are using Azure DevOps.
 ![multicloud](./images/multicloud.png)
 
 ## Examples
-
-- AWS <http://hy01env.3rwrm5immp.us-west-2.elasticbeanstalk.com/>
-
-- Azure <http://hy01app.azurewebsites.net/>
-
-- Google Cloud Platform (Node.js) <https://hy01pj1.appspot.com/>
-
-- GE Digital Predix <https://hy01app.run.aws-usw02-pr.ice.predix.io>
-
-- IBM Cloud <https://hy01app.mybluemix.net/>
-
-- IBM Cloud (Docker Container) <http://hy01apc.mybluemix.net/>
+|  cloud  |  service  |   type  |
+|  ----  |  ----  |  ----  |
+|  [AWS](http://hy01env.3rwrm5immp.us-west-2.elasticbeanstalk.com/) | Elastic Beanstalk | Tomcat |
+| [Azure](http://hy01app.azurewebsites.net/) | App Service | Web app |
+| [Google Cloud Platform](https://hy01pj1.appspot.com/) | App Engine | Node.js |
+| [GE Digital Predix](https://hy01app.run.aws-usw02-pr.ice.predix.io) |  Cloud Foundry APP  | staticfile_buildpack (nginx) |
+| [IBM Cloud](https://hy01app.mybluemix.net/) |  Cloud Foundry APP  | staticfile_buildpack (nginx) |
+| [IBM Cloud](http://hy01apc.mybluemix.net/) |  Cloud Foundry APP  | docker-image |
 
 ## Getting Started
 
