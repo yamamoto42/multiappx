@@ -1,7 +1,5 @@
 # Bootstrap App
 
-
-
 [![GitHub issues](https://img.shields.io/github/issues/yamamoto42/bootstrap.svg)](https://github.com/yamamoto42/bootstrap)
 [![Docker Automated build](https://img.shields.io/docker/automated/yamamoto42/bootstrap.svg)](https://hub.docker.com/r/yamamoto42/bootstrap/)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yamamoto42/bootstrap.svg)](https://github.com/yamamoto42/bootstrap)
@@ -10,7 +8,7 @@
 This is Multi Cloud Sample application by Bootstrap.
 These build and deploy are using Azure DevOps.
 
-![multicloud](./multicloud.png)
+![multicloud](./images/multicloud.png)
 
 ## Examples
 
@@ -36,6 +34,7 @@ cd bootstrap
 
 - Google Cloud Platform (Node.js)
 ```
+npm install
 gcloud app deploy
 ```
 
@@ -46,7 +45,7 @@ cf push <APP_NAME> -b staticfile_buildpack -m 64mb
 
 - IBM Cloud (Docker Container)
 ```
-cf push <APP_NAME> -m 64m --docker-image yamamoto42/bootstrap
+cf push <APP_NAME> -m 64mb --docker-image yamamoto42/bootstrap
 ```
 
 ## License
