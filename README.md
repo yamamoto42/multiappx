@@ -8,7 +8,7 @@
 This is [Multicloud](https://en.wikipedia.org/wiki/Multicloud) Sample application by [Bootstrap](http://getbootstrap.com/).
 These build and deploy are using [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/).
 
-![multicloudflow](./images/multicloud.png)
+![multicloudflow](https://github.com/yamamoto42/multiappx/blob/master/images/multicloud.png)
 
 ## Examples
 |  cloud  |  service  |   type  |
