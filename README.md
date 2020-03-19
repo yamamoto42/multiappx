@@ -44,6 +44,20 @@ cf push <APP_NAME> -b staticfile_buildpack -m 64mb
 cf push <APP_NAME> -m 64mb --docker-image yamamoto42/multiappx
 ```
 
+- Azure WebApp
+```
+myloc="japaneast"
+myrg="my-rg"
+myasp="my-asp"
+myapp="my-app"
+
+az webapp create \
+-g $myrg  \
+-p $myasp \
+-n $myapp \
+-i yamamoto42/multiappx
+```
+
 ## License
 
 MIT
